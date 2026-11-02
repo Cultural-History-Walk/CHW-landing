@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cultural History Walk</title>
+<title>Cultural History Walk — Próximamente</title>
 <script src="./vendor/react.js"></script>
 <script src="./vendor/react-dom.js"></script>
 <script src="./support.js"></script>
@@ -21,304 +21,225 @@ html{scroll-behavior:smooth}
 </helmet>
 <div style="background: #FFFBF3; color: #3D3D3D; font-family: 'Instrument Sans', system-ui, sans-serif; font-size: 17px; line-height: 1.6; min-width: 0; overflow-x: hidden">
 
-  <!-- BARRA SUPERIOR -->
-  <div style="background: #3D4F88; color: #FFFBF3; font-size: 14px">
-    <div style="max-width: 1200px; margin: 0 auto; padding: 10px 24px; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 16px; text-align: center">
-      <span>Nuevo: recorrido piloto por el centro histórico de Sabanalarga, Atlántico.</span>
-      <a href="#rutas" style="color: #E9DC76; font-weight: 600">Ver la ruta</a>
-    </div>
-  </div>
-
   <!-- NAV -->
-  <header style="background: #FFFBF3">
+  <header style="background: #3D4F88">
     <nav aria-label="Principal" style="max-width: 1200px; margin: 0 auto; padding: 14px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
       <a href="#inicio" style="display: block; padding: 4px 0">
-        <img src="./assets/d7f1743b5c36107aef3c52580381a562.png" alt="Cultural History Walk" style="display: block; height: 48px; width: auto">
+        <img src="./assets/030f2abbd51c4f82318b714de18955a1.png" alt="Cultural History Walk" style="display: block; height: 48px; width: auto">
       </a>
       <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px 28px; font-size: 15px; font-weight: 500">
-        <a href="#como-funciona" style="text-decoration: none; padding: 10px 0; color: #3D3D3D">Cómo funciona</a>
-        <a href="#rutas" style="text-decoration: none; padding: 10px 0; color: #3D3D3D">Recorridos</a>
-        <a href="#app" style="text-decoration: none; padding: 10px 0; color: #3D3D3D">La app</a>
-        <a href="#instituciones" style="text-decoration: none; padding: 10px 0; color: #3D3D3D">Para instituciones</a>
-        <a href="#nosotros" style="text-decoration: none; padding: 10px 0; color: #3D3D3D">Nosotros</a>
-        <a href="#reservar" style="text-decoration: none; padding: 11px 22px; background: #BD4818; color: #FFFBF3; border-radius: 999px; font-weight: 600">Reservar recorrido</a>
+        <a href="#que-hacemos" style="text-decoration: none; padding: 10px 0; color: #FFFBF3">Qué hacemos</a>
+        <a href="#construccion" style="text-decoration: none; padding: 10px 0; color: #FFFBF3">En construcción</a>
+        <a href="#nosotros" style="text-decoration: none; padding: 10px 0; color: #FFFBF3">Quiénes somos</a>
+        <a href="#tienda" style="text-decoration: none; padding: 10px 0; color: #FFFBF3">Tienda</a>
+        <a href="mailto:info@culturalhistorywalk.com" style="text-decoration: none; padding: 11px 22px; background: #BD4818; color: #FFFBF3; border-radius: 999px; font-weight: 600">Escríbenos</a>
       </div>
     </nav>
   </header>
 
-  <!-- HERO CON FOTOGRAFÍA -->
-  <section id="inicio" style="position: relative; overflow: hidden; background: #2A2A2A">
-    <img src="./assets/c535796a44f0e26a8746aee77ad3935f.jpg" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 60%">
-    <div aria-hidden="true" style="position: absolute; inset: 0; background: rgba(28, 26, 24, 0.62)"></div>
-    <div style="position: relative; max-width: 1200px; margin: 0 auto; padding: 72px 24px 88px; display: flex; flex-wrap: wrap; align-items: center; gap: 48px">
+  <!-- HERO -->
+  <section id="inicio" style="position: relative; overflow: hidden; background: #3D3D3D">
+    <img src="./assets/b1819b177ae40ebf1b6b6c8047a0eb8f.jpg" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover">
+    <div aria-hidden="true" style="position: absolute; inset: 0; background: rgba(28, 26, 24, 0.6)"></div>
+    <div style="position: relative; max-width: 1200px; margin: 0 auto; padding: 80px 24px 104px; display: flex; flex-wrap: wrap; align-items: center; gap: 48px">
       <div style="flex: 999 1 520px; min-width: 0; display: flex; justify-content: center">
-        <div style="position: relative; width: 100%; max-width: 600px; padding: 96px 0">
-          <div aria-hidden="true" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 72%; aspect-ratio: 1 / 1; background: #9AB5CC; border-radius: 46% 54% 52% 48% / 42% 46% 54% 58%"></div>
-          <h1 style="position: relative; margin: 0; text-align: center; font-family: 'Archivo', sans-serif; font-weight: 500; font-size: clamp(42px, 6.4vw, 78px); line-height: 1.04; letter-spacing: 0.03em; color: #3D4F88">CADA&nbsp;&nbsp;LUGAR<br>MUCHAS<span style="font-family: 'Yellowtail', cursive; font-weight: 400; letter-spacing: 0; color: #BD4818; font-size: 1.2em; margin-left: -0.08em">historias</span></h1>
+        <div aria-hidden="true" style="width: min(440px, 100%); aspect-ratio: 1 / 1; background: #9AB5CC; border-radius: 46% 54% 52% 48% / 42% 46% 54% 58%; display: flex; align-items: center; justify-content: center">
+          <svg viewBox="0 0 100 112" width="52%" aria-hidden="true"><circle cx="52" cy="9" r="8" fill="#BD4818"></circle><polygon fill="#BD4818" points="4,24 44,17 62,17 97,25 97,35 67,28 75,72 67,112 54,110 60,74 56,66 33,105 21,98 39,66 45,31 6,33"></polygon></svg>
         </div>
       </div>
       <div style="flex: 1 1 340px; min-width: 0; color: #FFFBF3">
-        <p style="margin: 0; font-size: 20px; line-height: 1.55">Recorridos guiados y audio-guías en tu celular, escritos por historiadores. Escanea el código QR en cada lugar y descubre lo que las fachadas no cuentan.</p>
+        <span style="display: inline-block; font-family: 'Archivo', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.18em; color: #3D3D3D; background: #E9DC76; padding: 6px 14px; border-radius: 999px">PROTOTIPO EN CONSTRUCCIÓN · MUY PRONTO</span>
+        <h1 style="margin: 22px 0 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: clamp(28px, 3vw, 36px); line-height: 1.2; color: #FFFBF3">Llevamos la investigación histórica a la calle, a la mano de todos.</h1>
+        <p style="margin: 18px 0 0; font-size: 18px; color: #EDE7DC">Somos historiadores. Investigamos el pasado y queremos que lo vivas más allá de la academia. Algo nuevo está por llegar.</p>
         <div style="margin-top: 32px; display: flex; flex-wrap: wrap; gap: 14px">
-          <a href="#reservar" style="text-decoration: none; padding: 15px 30px; background: #BD4818; color: #FFFBF3; border-radius: 999px; font-weight: 600">Reservar un recorrido</a>
-          <a href="#app" style="text-decoration: none; display: flex; align-items: center; gap: 10px; padding: 14px 26px; border: 1.5px solid #FFFBF3; color: #FFFBF3; border-radius: 999px; font-weight: 600"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><polygon points="7,4 20,12 7,20"></polygon></svg>Ver la app</a>
-        </div>
-        <div style="margin-top: 44px; display: flex; flex-wrap: wrap; gap: 24px 36px">
-          <div><p style="margin: 0; font-family: 'Gilda Display', serif; font-size: 34px; color: #E9DC76; line-height: 1">3</p><p style="margin: 6px 0 0; font-size: 14px; color: #EDE7DC">idiomas: español,<br>inglés y francés</p></div>
-          <div><p style="margin: 0; font-family: 'Gilda Display', serif; font-size: 34px; color: #E9DC76; line-height: 1">6–8</p><p style="margin: 6px 0 0; font-size: 14px; color: #EDE7DC">paradas en el<br>recorrido piloto</p></div>
-          <div><p style="margin: 0; font-family: 'Gilda Display', serif; font-size: 34px; color: #E9DC76; line-height: 1">100%</p><p style="margin: 6px 0 0; font-size: 14px; color: #EDE7DC">contenido con<br>fuentes verificadas</p></div>
+          <a href="#contacto" style="text-decoration: none; padding: 15px 30px; background: #BD4818; color: #FFFBF3; border-radius: 999px; font-weight: 600">Quiero enterarme</a>
+          <a href="#nosotros" style="text-decoration: none; padding: 14px 28px; border: 1.5px solid #FFFBF3; color: #FFFBF3; border-radius: 999px; font-weight: 600">Conócenos</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- RESPALDO -->
-  <section aria-label="Respaldo" style="border-bottom: 1px solid #ECE4D6">
-    <div style="max-width: 1200px; margin: 0 auto; padding: 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 12px 40px; font-size: 14px">
-      <span style="font-family: 'Archivo', sans-serif; font-weight: 600; letter-spacing: 0.16em; font-size: 12px; color: #3D4F88">CON EL RESPALDO DE</span>
-      <span style="font-weight: 600">UA Emprende · Sciencepreneurs</span>
-      <span style="font-weight: 600">Universidad del Atlántico</span>
-      <span style="font-weight: 600">[ALIADO]</span>
+  <!-- QUÉ HACEMOS -->
+  <section id="que-hacemos" style="max-width: 1200px; margin: 0 auto; padding: 104px 24px">
+    <div style="text-align: center; max-width: 760px; margin: 0 auto">
+      <p style="margin: 0 0 10px; font-family: 'Archivo', sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 0.22em; color: #BD4818">LO QUE VIENE</p>
+      <h2 style="margin: 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: clamp(32px, 4vw, 48px); line-height: 1.15; color: #3D4F88">La historia, más allá de la academia</h2>
+      <p style="margin: 20px 0 0; font-size: 18px">Estamos preparando una manera distinta de encontrarte con el pasado de los lugares que habitas y visitas.</p>
+    </div>
+    <div style="margin-top: 64px; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 48px 32px; text-align: center">
+      <div style="display: flex; flex-direction: column; align-items: center; gap: 16px">
+        <span style="width: 120px; height: 120px; background: #BD4818; border-radius: 46% 54% 50% 50% / 40% 46% 54% 60%; display: flex; align-items: center; justify-content: center"><svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="#FFFBF3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"></path><path d="M4 21V5"></path></svg></span>
+        <h3 style="margin: 8px 0 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: 26px">Lo que investigamos</h3>
+        <p style="margin: 0; max-width: 320px">Archivos, documentos y voces que esperan ser escuchados.</p>
+      </div>
+      <div style="display: flex; flex-direction: column; align-items: center; gap: 16px">
+        <span style="width: 120px; height: 120px; background: #3D4F88; border-radius: 54% 46% 42% 58% / 50% 56% 44% 50%; display: flex; align-items: center; justify-content: center"><svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="#FFFBF3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"></rect><path d="M11 18h2"></path></svg></span>
+        <h3 style="margin: 8px 0 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: 26px">A la mano de todos</h3>
+        <p style="margin: 0; max-width: 320px">Muy pronto te contamos cómo.</p>
+      </div>
+      <div style="display: flex; flex-direction: column; align-items: center; gap: 16px">
+        <span style="width: 120px; height: 120px; background: #E9DC76; border-radius: 50% 50% 56% 44% / 56% 44% 56% 44%; display: flex; align-items: center; justify-content: center"><svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="#3D3D3D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg></span>
+        <h3 style="margin: 8px 0 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: 26px">Tu ciudad, tu pueblo</h3>
+        <p style="margin: 0; max-width: 320px">Tienen historias que aún no te han contado.</p>
+      </div>
     </div>
   </section>
 
-  <!-- CÓMO FUNCIONA -->
-  <section id="como-funciona" style="max-width: 1200px; margin: 0 auto; padding: 96px 24px">
-    <div style="text-align: center; max-width: 680px; margin: 0 auto">
-      <p style="margin: 0 0 10px; font-family: 'Archivo', sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 0.22em; color: #BD4818">CÓMO FUNCIONA</p>
-      <h2 style="margin: 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: clamp(32px, 4vw, 48px); line-height: 1.15; color: #3D4F88">Tu recorrido en tres pasos</h2>
+  <!-- CREANDO -->
+  <section aria-label="Creando" style="position: relative; overflow: hidden; padding: 40px 24px 96px; display: flex; justify-content: center">
+    <div aria-hidden="true" style="position: absolute; left: 6%; top: 18%; width: 90px; height: 90px; background: #E9DC76; border-radius: 50% 50% 56% 44% / 56% 44% 56% 44%"></div>
+    <div aria-hidden="true" style="position: absolute; right: 8%; bottom: 14%; width: 120px; height: 120px; background: #BD4818; border-radius: 58% 42% 46% 54% / 52% 58% 42% 48%"></div>
+    <div style="position: relative; width: min(620px, 100%); aspect-ratio: 1 / 1; background: #9AB5CC; border-radius: 46% 54% 52% 48% / 42% 46% 54% 58%; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center">
+      <p style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 500; font-size: clamp(46px, 9vw, 104px); line-height: 1; letter-spacing: 0.03em; color: #3D4F88">CREANDO<span style="font-family: 'Yellowtail', cursive; font-weight: 400; letter-spacing: 0; color: #BD4818; font-size: 1.1em">ooo</span></p>
+      <div style="margin-top: 18px; display: flex; justify-content: center"><svg viewBox="0 0 100 112" width="46" aria-hidden="true"><circle cx="52" cy="9" r="8" fill="#3D4F88"></circle><polygon fill="#3D4F88" points="4,24 44,17 62,17 97,25 97,35 67,28 75,72 67,112 54,110 60,74 56,66 33,105 21,98 39,66 45,31 6,33"></polygon></svg></div>
     </div>
-    <ol style="list-style: none; margin: 64px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 48px 32px; text-align: center">
-      <li style="display: flex; flex-direction: column; align-items: center; gap: 16px">
-        <span style="width: 120px; height: 120px; background: #BD4818; border-radius: 46% 54% 50% 50% / 40% 46% 54% 60%; display: flex; align-items: center; justify-content: center"><svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="#FFFBF3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg></span>
-        <h3 style="margin: 8px 0 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: 26px">Elige tu ruta</h3>
-        <p style="margin: 0; max-width: 320px">Reserva un recorrido guiado en grupo o abre la ruta en la app para hacerla a tu ritmo.</p>
-      </li>
-      <li style="display: flex; flex-direction: column; align-items: center; gap: 16px">
-        <span style="width: 120px; height: 120px; background: #3D4F88; border-radius: 54% 46% 42% 58% / 50% 56% 44% 50%; display: flex; align-items: center; justify-content: center"><svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="#FFFBF3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8V4h4M16 4h4v4M20 16v4h-4M8 20H4v-4"></path><rect x="9" y="9" width="6" height="6"></rect></svg></span>
-        <h3 style="margin: 8px 0 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: 26px">Escanea en cada lugar</h3>
-        <p style="margin: 0; max-width: 320px">Cada parada tiene un código QR que abre su historia, con fotos y documentos de archivo.</p>
-      </li>
-      <li style="display: flex; flex-direction: column; align-items: center; gap: 16px">
-        <span style="width: 120px; height: 120px; background: #E9DC76; border-radius: 50% 50% 56% 44% / 56% 44% 56% 44%; display: flex; align-items: center; justify-content: center"><svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="#3D3D3D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 14v-2a8 8 0 0 1 16 0v2"></path><rect x="3" y="14" width="4" height="6" rx="1.5"></rect><rect x="17" y="14" width="4" height="6" rx="1.5"></rect></svg></span>
-        <h3 style="margin: 8px 0 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: 26px">Escucha y descubre</h3>
-        <p style="margin: 0; max-width: 320px">Audio-guías narradas y testimonios de la comunidad, en español, inglés o francés.</p>
-      </li>
-    </ol>
   </section>
 
-  <!-- RECORRIDOS -->
-  <section id="rutas" style="background: #F5EEE1">
-    <div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px">
-      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 20px">
-        <div style="max-width: 620px">
-          <p style="margin: 0 0 10px; font-family: 'Archivo', sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 0.22em; color: #BD4818">RECORRIDOS</p>
-          <h2 style="margin: 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: clamp(32px, 4vw, 48px); line-height: 1.15; color: #3D4F88">Empieza por Sabanalarga</h2>
+  <!-- EN CONSTRUCCIÓN -->
+  <section id="construccion" style="background: #F5EEE1">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 104px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 56px">
+      <div style="flex: 1 1 380px; min-width: 0; position: relative">
+        <div style="position: relative; width: 100%; aspect-ratio: 4 / 5; max-height: 560px; background: #9AB5CC; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%; overflow: hidden">
+          <img src="./assets/df2c0d01339f364cee9a1c5c25b372ad.jpg" alt="Casona republicana en el barrio El Prado, Barranquilla" style="display: block; width: 100%; height: 100%; object-fit: cover">
         </div>
-        <a href="#reservar" style="font-weight: 600; padding: 10px 0">Avísame de nuevas rutas →</a>
       </div>
-      <div style="margin-top: 48px; display: flex; flex-wrap: wrap; gap: 24px">
-        <article style="flex: 999 1 520px; min-width: 0; display: flex; flex-wrap: wrap; border-radius: 28px; overflow: hidden; background: #FFFBF3">
-          <div role="img" aria-label="Foto del centro histórico de Sabanalarga (pendiente)" style="position: relative; flex: 1 1 260px; min-height: 300px; background: #9AB5CC; display: flex; align-items: center; justify-content: center; padding: 18px">
-            <div aria-hidden="true" style="width: 150px; height: 150px; background: #FFFBF3; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%; display: flex; align-items: center; justify-content: center">
-              <svg viewBox="0 0 100 112" width="78" aria-hidden="true"><circle cx="52" cy="9" r="8" fill="#BD4818"></circle><polygon fill="#BD4818" points="4,24 44,17 62,17 97,25 97,35 67,28 75,72 67,112 54,110 60,74 56,66 33,105 21,98 39,66 45,31 6,33"></polygon></svg>
-            </div>
-            <span style="position: absolute; left: 16px; bottom: 16px; font-size: 13px; color: #3D3D3D; background: #FFFBF3; padding: 6px 12px; border-radius: 999px">[FOTO DEL CENTRO DE SABANALARGA]</span>
-          </div>
-          <div style="flex: 1 1 280px; padding: 32px; display: flex; flex-direction: column; gap: 14px">
-            <span style="align-self: flex-start; font-size: 12px; font-weight: 600; letter-spacing: 0.12em; color: #FFFBF3; background: #BD4818; padding: 5px 12px; border-radius: 999px">DISPONIBLE · PILOTO</span>
-            <h3 style="margin: 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: 30px; line-height: 1.15">Centro histórico de Sabanalarga</h3>
-            <p style="margin: 0">Un paseo por el centro urbano con paradas en sus hitos históricos y relatos de historia oral grabados con habitantes del municipio.</p>
-            <ul style="margin: 4px 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 14px">
-              <li>6–8 paradas</li><li>[DURACIÓN]</li><li>Guiado o en la app</li><li>[PRECIO]</li>
-            </ul>
-            <a href="#reservar" style="margin-top: 8px; align-self: flex-start; text-decoration: none; padding: 13px 26px; background: #3D4F88; color: #FFFBF3; border-radius: 999px; font-weight: 600">Reservar</a>
-          </div>
-        </article>
-        <article style="position: relative; overflow: hidden; flex: 1 1 280px; min-width: 0; border-radius: 28px; padding: 32px; background: #3D4F88; color: #FFFBF3; display: flex; flex-direction: column; gap: 14px">
-          <div aria-hidden="true" style="position: absolute; right: -50px; bottom: -60px; width: 200px; height: 200px; background: #9AB5CC; opacity: 0.35; border-radius: 46% 54% 60% 40% / 44% 50% 50% 56%"></div>
-          <span style="position: relative; align-self: flex-start; font-size: 12px; font-weight: 600; letter-spacing: 0.12em; color: #3D3D3D; background: #E9DC76; padding: 5px 12px; border-radius: 999px">PRÓXIMAMENTE</span>
-          <h3 style="position: relative; margin: 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: 30px; line-height: 1.15; color: #FFFBF3">Más municipios del Caribe</h3>
-          <p style="position: relative; margin: 0; color: #E6EAF3">Estamos investigando nuevas rutas en el Atlántico y el Caribe colombiano. ¿Quieres un recorrido en tu municipio?</p>
-          <a href="#instituciones" style="position: relative; margin-top: auto; color: #E9DC76; font-weight: 600; padding: 10px 0">Proponer un territorio →</a>
-        </article>
+      <div style="flex: 999 1 460px; min-width: 0">
+        <p style="margin: 0 0 10px; font-family: 'Archivo', sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 0.22em; color: #BD4818">PROTOTIPO EN CONSTRUCCIÓN</p>
+        <h2 style="margin: 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: clamp(32px, 4vw, 48px); line-height: 1.15; color: #3D4F88">Algo está tomando forma. <span style="font-family: 'Yellowtail', cursive; color: #BD4818; font-size: 1.15em">Muy pronto...</span></h2>
+        <p style="margin: 20px 0 0; font-size: 18px">Todavía no podemos contarte todo, pero falta poco.</p>
+        <p style="margin: 36px 0 0; font-family: 'Gilda Display', serif; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.25"><span style="color: #3D4F88">Ideando</span><span style="color: #9AB5CC">, </span><span style="color: #BD4818">investigando</span><span style="color: #9AB5CC">, </span><span style="color: #3D4F88">trabajando</span><span style="color: #9AB5CC">, </span><span style="color: #BD4818">conectando</span><span aria-hidden="true" style="font-family: 'Yellowtail', cursive; color: #BD4818">...</span></p>
       </div>
     </div>
   </section>
 
-  <!-- APP -->
-  <section id="app" style="max-width: 1200px; margin: 0 auto; padding: 104px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 64px">
-    <div style="flex: 1 1 320px; display: flex; justify-content: center; position: relative">
-      <div aria-hidden="true" style="position: absolute; top: 40px; width: 400px; max-width: 100%; aspect-ratio: 1 / 1; background: #9AB5CC; border-radius: 58% 42% 46% 54% / 52% 58% 42% 48%"></div>
-      <div role="img" aria-label="Vista de la app con el recorrido de Sabanalarga" style="position: relative; width: 290px; max-width: 100%; background: #3D3D3D; border-radius: 40px; padding: 12px; box-shadow: 0 30px 60px rgba(61, 61, 61, 0.28)">
-        <div style="background: #FFFBF3; border-radius: 30px; overflow: hidden">
-          <div style="padding: 22px 20px 14px">
-            <p style="margin: 0; font-size: 11px; font-weight: 600; letter-spacing: 0.16em; color: #BD4818">RECORRIDO</p>
-            <p style="margin: 2px 0 0; font-family: 'Gilda Display', serif; font-size: 24px; color: #3D4F88; line-height: 1.15">Centro histórico de Sabanalarga</p>
-            <p style="margin: 6px 0 0; font-size: 12px">[DURACIÓN] · [N.º] paradas · ES / EN / FR</p>
-          </div>
-          <div style="margin: 0 14px; height: 150px; border-radius: 18px; background: #F0E8D8; overflow: hidden">
-            <svg viewBox="0 0 260 150" width="100%" height="150" aria-hidden="true">
-              <g stroke="#FFFBF3" stroke-width="10" fill="none"><path d="M0 40 H260"></path><path d="M0 105 H260"></path><path d="M70 0 V150"></path><path d="M180 0 V150"></path></g>
-              <path d="M40 120 L70 105 L70 40 L130 40 L180 70 L220 40" stroke="#BD4818" stroke-width="4" fill="none" stroke-dasharray="2 8" stroke-linecap="round"></path>
-              <circle cx="40" cy="120" r="9" fill="#3D4F88"></circle><circle cx="70" cy="40" r="9" fill="#3D4F88"></circle><circle cx="130" cy="40" r="11" fill="#BD4818"></circle><circle cx="180" cy="70" r="9" fill="#9AB5CC"></circle><circle cx="220" cy="40" r="9" fill="#9AB5CC"></circle>
-            </svg>
-          </div>
-          <div style="padding: 14px; display: flex; flex-direction: column; gap: 8px">
-            <div style="display: flex; align-items: center; gap: 12px; padding: 12px; background: #FFFFFF; border-radius: 14px">
-              <span style="flex: 0 0 36px; height: 36px; border-radius: 50%; background: #BD4818; display: flex; align-items: center; justify-content: center"><svg viewBox="0 0 24 24" width="14" height="14" fill="#FFFBF3" aria-hidden="true"><polygon points="7,4 20,12 7,20"></polygon></svg></span>
-              <span style="flex: 1; min-width: 0"><span style="display: block; font-size: 13px; font-weight: 600">Parada 3 · [NOMBRE DEL HITO]</span><span style="display: block; font-size: 11px">Reproduciendo · 2:14 / 4:30</span></span>
-            </div>
-            <div style="display: flex; align-items: center; gap: 12px; padding: 12px; background: #FFFFFF; border-radius: 14px">
-              <span style="flex: 0 0 36px; height: 36px; border-radius: 50%; background: #3D4F88; display: flex; align-items: center; justify-content: center"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#FFFBF3" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 8V4h4M16 4h4v4M20 16v4h-4M8 20H4v-4"></path></svg></span>
-              <span style="flex: 1; min-width: 0"><span style="display: block; font-size: 13px; font-weight: 600">Escanea el QR de la siguiente parada</span><span style="display: block; font-size: 11px">Progreso: 3 de [N.º]</span></span>
-            </div>
-          </div>
+  <!-- QUIÉNES SOMOS -->
+  <section id="nosotros" style="max-width: 1200px; margin: 0 auto; padding: 104px 24px">
+    <div style="max-width: 760px">
+      <p style="margin: 0 0 10px; font-family: 'Archivo', sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 0.22em; color: #BD4818">QUIÉNES SOMOS</p>
+      <h2 style="margin: 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: clamp(32px, 4vw, 48px); line-height: 1.15; color: #3D4F88">Somos historiadores</h2>
+      <p style="margin: 20px 0 0; font-size: 18px">Investigamos la historia y queremos que sea una experiencia más allá de la academia: cercana, viva y al alcance de todos.</p>
+    </div>
+    <div style="margin-top: 52px; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px">
+      <div style="display: flex; flex-wrap: wrap; gap: 24px; padding: 32px; border-radius: 28px; background: #F5EEE1">
+        <div role="img" aria-label="Foto de Francisco Javier Eversley Torres (pendiente)" style="flex: 0 0 112px; height: 112px; background: #9AB5CC; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%; display: flex; align-items: center; justify-content: center; font-family: 'Gilda Display', serif; font-size: 32px; color: #3D3D3D">FE</div>
+        <div style="flex: 1 1 220px; min-width: 0">
+          <h3 style="margin: 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: 26px">Francisco Javier Eversley Torres</h3>
+          <p style="margin: 4px 0 14px; font-weight: 600; font-size: 14px; color: #BD4818">Cofundador · Dirección académica y estratégica</p>
+          <p style="margin: 0; font-size: 16px">Historiador y candidato doctoral en Historia Contemporánea (Universidad Autónoma de Madrid). Docente universitario con más de una década de experiencia en la Universidad del Atlántico y Uninorte, creador del Laboratorio de Historia de la Universidad del Atlántico, con trayectoria en investigación, extensión cultural, medios y servicios culturales.</p>
+        </div>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 24px; padding: 32px; border-radius: 28px; background: #F5EEE1">
+        <div role="img" aria-label="Foto de Eduar Peralta (pendiente)" style="flex: 0 0 112px; height: 112px; background: #E9DC76; border-radius: 54% 46% 42% 58% / 50% 56% 44% 50%; display: flex; align-items: center; justify-content: center; font-family: 'Gilda Display', serif; font-size: 32px; color: #3D3D3D">EP</div>
+        <div style="flex: 1 1 220px; min-width: 0">
+          <h3 style="margin: 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: 26px">Eduar Peralta</h3>
+          <p style="margin: 4px 0 14px; font-weight: 600; font-size: 14px; color: #BD4818">Cofundador · Innovación y desarrollo</p>
+          <p style="margin: 0; font-size: 16px">Estudiante del programa de Historia, con espíritu innovador y comprometido con llevar la historia a todas las personas. Motor creativo del proyecto y puente entre la academia y las nuevas generaciones.</p>
         </div>
       </div>
     </div>
-    <div style="flex: 999 1 460px; min-width: 0">
-      <p style="margin: 0 0 10px; font-family: 'Archivo', sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 0.22em; color: #BD4818">LA APP</p>
-      <h2 style="margin: 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: clamp(32px, 4vw, 48px); line-height: 1.15; color: #3D4F88">Un guía de historia en tu bolsillo</h2>
-      <p style="margin: 20px 0 0; font-size: 18px">Se abre desde el navegador de tu celular y funciona como una app, sin descargas pesadas.</p>
-      <ul style="list-style: none; margin: 36px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px 32px">
-        <li style="display: flex; gap: 14px"><span aria-hidden="true" style="flex: 0 0 14px; height: 14px; margin-top: 6px; background: #BD4818; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%"></span><span><span style="display: block; font-weight: 600; color: #3D4F88">Mapas georreferenciados</span><span style="display: block; font-size: 16px">Sigue la ruta y ubica cada parada.</span></span></li>
-        <li style="display: flex; gap: 14px"><span aria-hidden="true" style="flex: 0 0 14px; height: 14px; margin-top: 6px; background: #3D4F88; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%"></span><span><span style="display: block; font-weight: 600; color: #3D4F88">Audio-guías</span><span style="display: block; font-size: 16px">Narraciones y voces de la comunidad.</span></span></li>
-        <li style="display: flex; gap: 14px"><span aria-hidden="true" style="flex: 0 0 14px; height: 14px; margin-top: 6px; background: #9AB5CC; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%"></span><span><span style="display: block; font-weight: 600; color: #3D4F88">Escáner QR</span><span style="display: block; font-size: 16px">Apunta la cámara y accede al sitio.</span></span></li>
-        <li style="display: flex; gap: 14px"><span aria-hidden="true" style="flex: 0 0 14px; height: 14px; margin-top: 6px; background: #E9DC76; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%"></span><span><span style="display: block; font-weight: 600; color: #3D4F88">Tres idiomas</span><span style="display: block; font-size: 16px">Español, inglés y francés.</span></span></li>
-        <li style="display: flex; gap: 14px"><span aria-hidden="true" style="flex: 0 0 14px; height: 14px; margin-top: 6px; background: #BD4818; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%"></span><span><span style="display: block; font-weight: 600; color: #3D4F88">Tu progreso</span><span style="display: block; font-size: 16px">Retoma el recorrido cuando quieras.</span></span></li>
-        <li style="display: flex; gap: 14px"><span aria-hidden="true" style="flex: 0 0 14px; height: 14px; margin-top: 6px; background: #3D4F88; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%"></span><span><span style="display: block; font-weight: 600; color: #3D4F88">Archivo vivo</span><span style="display: block; font-size: 16px">Fotos y documentos digitalizados.</span></span></li>
+  </section>
+
+  <!-- SLOGAN CON FOTOS -->
+  <section aria-label="Cada lugar muchas historias" style="position: relative; overflow: hidden; background: #F5EEE1; min-height: 820px; padding: 96px 24px; display: flex; align-items: center; justify-content: center">
+    <div style="position: absolute; left: 2%; top: 7%; width: 22%; aspect-ratio: 3 / 4; border-radius: 28px; overflow: hidden; background: #9AB5CC"><img src="./assets/c4a3e85c9e65aef32872083058019831.jpg" alt="Visitante fotografía un mural en Barranquilla" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: 70% center"></div>
+    <div style="position: absolute; left: 9%; bottom: 5%; width: 17%; aspect-ratio: 3 / 4; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%; overflow: hidden; background: #E9DC76"><img src="./assets/dba2e2b1f6d5a96a8177904739d6f816.jpg" alt="Casa de arquitectura neomorisca con fuente y arcos" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: center"></div>
+    <div style="position: absolute; right: 3%; top: 6%; width: 21%; aspect-ratio: 1 / 1; border-radius: 54% 46% 42% 58% / 50% 56% 44% 50%; overflow: hidden; background: #BD4818"><img src="./assets/e65d962557dd5f6f531eb427457ba416.jpg" alt="Fachadas coloridas de casas antiguas" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: center"></div>
+    <div style="position: absolute; right: 10%; bottom: 4%; width: 16%; aspect-ratio: 3 / 4; border-radius: 28px; overflow: hidden; background: #3D4F88"><img src="./assets/f834f6ae489c8ce3a7b512fabfd3eecf.jpg" alt="Calle peatonal pintada entre murales" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: center"></div>
+    <div style="position: absolute; left: 31%; top: 3%; width: 11%; aspect-ratio: 1 / 1; border-radius: 58% 42% 46% 54% / 52% 58% 42% 48%; overflow: hidden; background: #9AB5CC"><img src="./assets/3e5702623719a8ab445d30d8cb3f10a3.jpg" alt="Edificio de fachada ocre con quiebrasoles" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: center"></div>
+    <div aria-hidden="true" style="position: absolute; right: 30%; bottom: 8%; width: 70px; height: 70px; background: #E9DC76; border-radius: 50% 50% 56% 44% / 56% 44% 56% 44%"></div>
+    <div style="position: relative; width: 100%; max-width: 860px; padding: 110px 0">
+      <div aria-hidden="true" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: min(560px, 82%); aspect-ratio: 1 / 1; background: #9AB5CC; border-radius: 46% 54% 52% 48% / 42% 46% 54% 58%; box-shadow: 0 24px 60px rgba(61, 61, 61, 0.22)"></div>
+      <p style="position: relative; margin: 0; text-align: center; font-family: 'Archivo', sans-serif; font-weight: 500; font-size: clamp(44px, 7.4vw, 96px); line-height: 1.04; letter-spacing: 0.03em; color: #3D4F88">CADA&nbsp;&nbsp;LUGAR<br>MUCHAS<span style="font-family: 'Yellowtail', cursive; font-weight: 400; letter-spacing: 0; color: #BD4818; font-size: 1.2em; margin-left: -0.08em">historias</span></p>
+    </div>
+  </section>
+
+  <!-- TIENDA -->
+  <section id="tienda" style="max-width: 1200px; margin: 0 auto; padding: 104px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 56px">
+    <div style="flex: 999 1 420px; min-width: 0">
+      <p style="margin: 0 0 10px; font-family: 'Archivo', sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 0.22em; color: #BD4818">TIENDA</p>
+      <h2 style="margin: 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: clamp(32px, 4vw, 48px); line-height: 1.15; color: #3D4F88">Lleva la historia <span style="font-family: 'Yellowtail', cursive; color: #BD4818; font-size: 1.15em">contigo</span></h2>
+      <p style="margin: 20px 0 0; font-size: 18px">Mientras llega lo que estamos construyendo, ya puedes llevar nuestra marca.</p>
+      <ul style="list-style: none; margin: 28px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px">
+        <li style="padding: 9px 18px; border-radius: 999px; background: #BD4818; color: #FFFBF3; font-weight: 600; font-size: 15px">Camisetas</li>
+        <li style="padding: 9px 18px; border-radius: 999px; background: #3D4F88; color: #FFFBF3; font-weight: 600; font-size: 15px">Tote bags</li>
+        <li style="padding: 9px 18px; border-radius: 999px; background: #9AB5CC; color: #3D3D3D; font-weight: 600; font-size: 15px">Busos</li>
+        <li style="padding: 9px 18px; border-radius: 999px; background: #E9DC76; color: #3D3D3D; font-weight: 600; font-size: 15px">Libretas</li>
+        <li style="padding: 9px 18px; border-radius: 999px; background: #F5EEE1; color: #3D3D3D; font-weight: 600; font-size: 15px">y más</li>
       </ul>
+      <a href="#" style="display: inline-block; margin-top: 32px; text-decoration: none; padding: 15px 30px; background: #BD4818; color: #FFFBF3; border-radius: 999px; font-weight: 600">Ir a la tienda</a>
     </div>
-  </section>
-
-  <!-- INSTITUCIONES CON FOTOGRAFÍA -->
-  <section id="instituciones" style="position: relative; overflow: hidden; background: #2A2A2A; color: #FFFBF3">
-    <img src="./assets/4ae863e1fa273ffab31bccf623a440e3.jpg" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover">
-    <div aria-hidden="true" style="position: absolute; inset: 0; background: rgba(28, 26, 24, 0.7)"></div>
-    <div style="position: relative; max-width: 1200px; margin: 0 auto; padding: 104px 24px">
-      <div style="max-width: 700px">
-        <p style="margin: 0 0 10px; font-family: 'Archivo', sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 0.22em; color: #E9DC76">PARA INSTITUCIONES</p>
-        <h2 style="margin: 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: clamp(32px, 4vw, 48px); line-height: 1.15; color: #FFFBF3">Llevemos la historia de tu territorio a la gente</h2>
-        <p style="margin: 20px 0 0; font-size: 18px; color: #EDE7DC">Diseñamos experiencias a la medida, con investigación histórica propia y tecnología lista para usar.</p>
+    <div style="flex: 1 1 460px; min-width: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px">
+      <div role="img" aria-label="Ilustración de una camiseta" style="aspect-ratio: 1 / 1; border-radius: 28px; background: #BD4818; display: flex; align-items: center; justify-content: center">
+        <svg viewBox="0 0 120 120" width="62%" aria-hidden="true"><path fill="#FFFBF3" d="M42 14 L22 22 L6 42 L22 54 L30 46 L30 108 L90 108 L90 46 L98 54 L114 42 L98 22 L78 14 Q60 28 42 14 Z"></path><g transform="translate(50 58) scale(0.2)"><circle cx="52" cy="9" r="8" fill="#BD4818"></circle><polygon fill="#BD4818" points="4,24 44,17 62,17 97,25 97,35 67,28 75,72 67,112 54,110 60,74 56,66 33,105 21,98 39,66 45,31 6,33"></polygon></g></svg>
       </div>
-      <div style="margin-top: 48px; display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 20px">
-        <div style="padding: 30px; border-radius: 24px; background: #FFFBF3; color: #3D3D3D; display: flex; flex-direction: column; gap: 10px">
-          <span aria-hidden="true" style="width: 40px; height: 40px; background: #BD4818; border-radius: 46% 54% 50% 50% / 40% 46% 54% 60%"></span>
-          <h3 style="margin: 6px 0 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: 25px; color: #3D4F88">Colegios y universidades</h3>
-          <p style="margin: 0">Salidas pedagógicas con contenidos alineados a historia, ciencias sociales y patrimonio.</p>
-        </div>
-        <div style="padding: 30px; border-radius: 24px; background: #FFFBF3; color: #3D3D3D; display: flex; flex-direction: column; gap: 10px">
-          <span aria-hidden="true" style="width: 40px; height: 40px; background: #9AB5CC; border-radius: 54% 46% 42% 58% / 50% 56% 44% 50%"></span>
-          <h3 style="margin: 6px 0 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: 25px; color: #3D4F88">Hoteles, operadores y empresas</h3>
-          <p style="margin: 0">Recorridos corporativos y experiencias que diferencian su oferta para huéspedes y clientes.</p>
-        </div>
-        <div style="padding: 30px; border-radius: 24px; background: #FFFBF3; color: #3D3D3D; display: flex; flex-direction: column; gap: 10px">
-          <span aria-hidden="true" style="width: 40px; height: 40px; background: #E9DC76; border-radius: 50% 50% 56% 44% / 56% 44% 56% 44%"></span>
-          <h3 style="margin: 6px 0 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: 25px; color: #3D4F88">Alcaldías y entidades de patrimonio</h3>
-          <p style="margin: 0">Digitalización de archivos, rutas patrimoniales y puesta en valor del territorio.</p>
-        </div>
+      <div role="img" aria-label="Ilustración de una tote bag" style="aspect-ratio: 1 / 1; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%; background: #3D4F88; display: flex; align-items: center; justify-content: center">
+        <svg viewBox="0 0 120 120" width="58%" aria-hidden="true"><path d="M42 40 V30 a18 18 0 0 1 36 0 V40" fill="none" stroke="#FFFBF3" stroke-width="6" stroke-linecap="round"></path><path fill="#FFFBF3" d="M24 40 H96 L100 110 H20 Z"></path><g transform="translate(49 62) scale(0.22)"><circle cx="52" cy="9" r="8" fill="#3D4F88"></circle><polygon fill="#3D4F88" points="4,24 44,17 62,17 97,25 97,35 67,28 75,72 67,112 54,110 60,74 56,66 33,105 21,98 39,66 45,31 6,33"></polygon></g></svg>
       </div>
-      <a href="#reservar" style="display: inline-block; margin-top: 40px; text-decoration: none; padding: 15px 30px; background: #E9DC76; color: #3D3D3D; border-radius: 999px; font-weight: 600">Solicitar una propuesta</a>
-    </div>
-  </section>
-
-  <!-- NOSOTROS -->
-  <section id="nosotros" style="max-width: 1200px; margin: 0 auto; padding: 104px 24px; display: flex; flex-wrap: wrap; gap: 56px; align-items: flex-start">
-    <div style="flex: 1 1 380px; min-width: 0">
-      <p style="margin: 0 0 10px; font-family: 'Archivo', sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 0.22em; color: #BD4818">NOSOTROS</p>
-      <h2 style="margin: 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: clamp(32px, 4vw, 48px); line-height: 1.15; color: #3D4F88">Historiadores que salieron del aula a la calle</h2>
-      <p style="margin: 20px 0 0; font-size: 18px">Creemos que la historia es la mejor herramienta para entender quiénes somos y hacia dónde vamos. Por eso cada recorrido nace de investigación en archivos y de conversaciones con la comunidad.</p>
-    </div>
-    <div style="flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 28px">
-      <div style="display: flex; gap: 22px; align-items: center">
-        <div role="img" aria-label="Foto de Francisco Javier Eversley Torres (pendiente)" style="flex: 0 0 96px; height: 96px; background: #9AB5CC; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%; display: flex; align-items: center; justify-content: center; font-family: 'Gilda Display', serif; font-size: 28px; color: #3D3D3D">FE</div>
-        <div style="min-width: 0">
-          <p style="margin: 0; font-family: 'Gilda Display', serif; font-size: 23px">Francisco Javier Eversley Torres</p>
-          <p style="margin: 2px 0 0; font-size: 14px; font-weight: 600; color: #BD4818">Cofundador · Dirección académica</p>
-          <p style="margin: 6px 0 0; font-size: 15px">Historiador, candidato doctoral (Universidad Autónoma de Madrid) y docente en la Universidad del Atlántico y Uninorte.</p>
-        </div>
+      <div role="img" aria-label="Ilustración de un buso" style="aspect-ratio: 1 / 1; border-radius: 54% 46% 42% 58% / 50% 56% 44% 50%; background: #9AB5CC; display: flex; align-items: center; justify-content: center">
+        <svg viewBox="0 0 120 120" width="62%" aria-hidden="true"><path fill="#FFFBF3" d="M44 12 L24 20 L10 60 L8 104 L22 104 L26 64 L30 46 L30 108 L90 108 L90 46 L94 64 L98 104 L112 104 L110 60 L96 20 L76 12 Q60 26 44 12 Z"></path><g transform="translate(50 58) scale(0.2)"><circle cx="52" cy="9" r="8" fill="#3D3D3D"></circle><polygon fill="#3D3D3D" points="4,24 44,17 62,17 97,25 97,35 67,28 75,72 67,112 54,110 60,74 56,66 33,105 21,98 39,66 45,31 6,33"></polygon></g></svg>
       </div>
-      <div style="display: flex; gap: 22px; align-items: center">
-        <div role="img" aria-label="Foto de Eduar Peralta (pendiente)" style="flex: 0 0 96px; height: 96px; background: #E9DC76; border-radius: 54% 46% 42% 58% / 50% 56% 44% 50%; display: flex; align-items: center; justify-content: center; font-family: 'Gilda Display', serif; font-size: 28px; color: #3D3D3D">EP</div>
-        <div style="min-width: 0">
-          <p style="margin: 0; font-family: 'Gilda Display', serif; font-size: 23px">Eduar Peralta</p>
-          <p style="margin: 2px 0 0; font-size: 14px; font-weight: 600; color: #BD4818">Cofundador · Innovación y desarrollo</p>
-          <p style="margin: 6px 0 0; font-size: 15px">Estudiante de Historia y motor creativo del proyecto, puente entre la academia y las nuevas generaciones.</p>
-        </div>
+      <div role="img" aria-label="Ilustración de una libreta" style="aspect-ratio: 1 / 1; border-radius: 28px; background: #E9DC76; display: flex; align-items: center; justify-content: center">
+        <svg viewBox="0 0 120 120" width="54%" aria-hidden="true"><rect x="26" y="10" width="72" height="100" rx="6" fill="#3D3D3D"></rect><rect x="34" y="10" width="64" height="100" rx="4" fill="#FFFBF3"></rect><rect x="80" y="10" width="6" height="100" fill="#BD4818"></rect><g transform="translate(48 46) scale(0.24)"><circle cx="52" cy="9" r="8" fill="#BD4818"></circle><polygon fill="#BD4818" points="4,24 44,17 62,17 97,25 97,35 67,28 75,72 67,112 54,110 60,74 56,66 33,105 21,98 39,66 45,31 6,33"></polygon></g></svg>
       </div>
     </div>
   </section>
 
-  <!-- PREGUNTAS -->
-  <section style="background: #F5EEE1">
-    <div style="max-width: 860px; margin: 0 auto; padding: 96px 24px">
-      <h2 style="margin: 0; text-align: center; font-family: 'Gilda Display', serif; font-weight: 400; font-size: clamp(30px, 3.6vw, 42px); color: #3D4F88">Preguntas frecuentes</h2>
-      <div style="margin-top: 40px; display: flex; flex-direction: column">
-        <details style="border-top: 1px solid #DCD2C0; padding: 20px 0"><summary style="cursor: pointer; font-weight: 600; font-size: 18px">¿Necesito descargar una aplicación?</summary><p style="margin: 12px 0 0">No. La app se abre desde el navegador de tu celular al escanear el primer código QR o desde nuestro enlace.</p></details>
-        <details style="border-top: 1px solid #DCD2C0; padding: 20px 0"><summary style="cursor: pointer; font-weight: 600; font-size: 18px">¿Puedo hacer el recorrido por mi cuenta?</summary><p style="margin: 12px 0 0">Sí. Puedes reservar un recorrido guiado en grupo o hacerlo a tu ritmo con las audio-guías de la app.</p></details>
-        <details style="border-top: 1px solid #DCD2C0; padding: 20px 0"><summary style="cursor: pointer; font-weight: 600; font-size: 18px">¿En qué idiomas está disponible?</summary><p style="margin: 12px 0 0">En español, inglés y francés.</p></details>
-        <details style="border-top: 1px solid #DCD2C0; border-bottom: 1px solid #DCD2C0; padding: 20px 0"><summary style="cursor: pointer; font-weight: 600; font-size: 18px">¿Organizan recorridos para grupos o colegios?</summary><p style="margin: 12px 0 0">Sí. Escríbenos con el número de personas y la fecha, y te enviamos una propuesta.</p></details>
-      </div>
+  <!-- FRASE CON FOTO -->
+  <section aria-label="Nuestra convicción" style="position: relative; overflow: hidden; background: #3D3D3D">
+    <img src="./assets/ad4aa0db39e7f9d63400a8712c1f3000.jpg" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 58%">
+    <div aria-hidden="true" style="position: absolute; inset: 0; background: rgba(28, 26, 24, 0.58)"></div>
+    <div style="position: relative; max-width: 960px; margin: 0 auto; padding: 120px 24px; text-align: center">
+      <p style="margin: 0; font-family: 'Gilda Display', serif; font-size: clamp(28px, 3.8vw, 44px); line-height: 1.3; color: #FFFBF3">“La historia es el recurso más poderoso para entender quiénes somos y hacia dónde vamos.”</p>
     </div>
   </section>
 
-  <!-- RESERVAR / CONTACTO -->
-  <section id="reservar" style="position: relative; overflow: hidden; background: #BD4818; color: #FFFBF3">
+  <!-- CONTACTO -->
+  <section id="contacto" style="position: relative; overflow: hidden; background: #BD4818; color: #FFFBF3">
     <div aria-hidden="true" style="position: absolute; left: -90px; top: -90px; width: 300px; height: 300px; background: #9AB5CC; opacity: 0.25; border-radius: 58% 42% 46% 54% / 52% 58% 42% 48%"></div>
     <div style="position: relative; max-width: 1200px; margin: 0 auto; padding: 96px 24px; display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-start">
       <div style="flex: 1 1 360px; min-width: 0">
-        <div aria-hidden="true" style="width: 110px; height: 110px; margin-bottom: 28px; background: #FFFBF3; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%; display: flex; align-items: center; justify-content: center">
-          <svg viewBox="0 0 100 112" width="58" aria-hidden="true"><circle cx="52" cy="9" r="8" fill="#3D3D3D"></circle><polygon fill="#3D3D3D" points="4,24 44,17 62,17 97,25 97,35 67,28 75,72 67,112 54,110 60,74 56,66 33,105 21,98 39,66 45,31 6,33"></polygon></svg>
-        </div>
-        <h2 style="margin: 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: clamp(32px, 4vw, 48px); line-height: 1.15; color: #FFFBF3">¿Listo para caminar la historia?</h2>
-        <p style="margin: 20px 0 0; font-size: 18px; color: #FCEDE4">Reserva tu recorrido o cuéntanos tu proyecto. Te respondemos en [TIEMPO DE RESPUESTA].</p>
+        <h2 style="margin: 0; font-family: 'Gilda Display', serif; font-weight: 400; font-size: clamp(32px, 4vw, 48px); line-height: 1.15; color: #FFFBF3">Sé de los primeros en descubrirlo</h2>
+        <p style="margin: 20px 0 0; font-size: 18px; color: #FCEDE4">Muy pronto te contaremos más. Escríbenos y te avisamos primero. Si eres una institución o un aliado interesado, también queremos conversar.</p>
         <div style="margin-top: 28px; display: flex; flex-direction: column; gap: 8px; font-size: 16px">
-          <a href="mailto:[CORREO]" style="color: #FFFBF3; padding: 4px 0">[CORREO DE CONTACTO]</a>
-          <a href="#" style="color: #FFFBF3; padding: 4px 0">[WHATSAPP]</a>
+          <a href="mailto:info@culturalhistorywalk.com" style="color: #FFFBF3; padding: 4px 0; font-weight: 600">info@culturalhistorywalk.com</a>
           <a href="#" style="color: #FFFBF3; padding: 4px 0">[@INSTAGRAM]</a>
         </div>
       </div>
-      <form style="flex: 1 1 420px; min-width: 0; background: #FFFBF3; color: #3D3D3D; border-radius: 28px; padding: 32px; display: flex; flex-direction: column; gap: 16px">
-        <div style="display: flex; flex-wrap: wrap; gap: 16px">
-          <label style="flex: 1 1 180px; display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Nombre<input type="text" name="nombre" style="font: inherit; font-weight: 400; padding: 12px 14px; border: 1px solid #CFC5B3; border-radius: 12px; background: #FFFFFF"></label>
-          <label style="flex: 1 1 180px; display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Correo<input type="email" name="correo" style="font: inherit; font-weight: 400; padding: 12px 14px; border: 1px solid #CFC5B3; border-radius: 12px; background: #FFFFFF"></label>
-        </div>
-        <label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Me interesa<select name="interes" style="font: inherit; font-weight: 400; padding: 12px 14px; border: 1px solid #CFC5B3; border-radius: 12px; background: #FFFFFF"><option>Reservar un recorrido</option><option>Recorrido para un grupo o colegio</option><option>Propuesta para mi institución</option><option>Otro</option></select></label>
-        <label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Mensaje<textarea name="mensaje" rows="4" style="font: inherit; font-weight: 400; padding: 12px 14px; border: 1px solid #CFC5B3; border-radius: 12px; background: #FFFFFF; resize: vertical"></textarea></label>
-        <button type="button" style="font: inherit; font-weight: 600; padding: 15px 28px; border: 0; border-radius: 999px; background: #3D4F88; color: #FFFBF3; cursor: pointer">Enviar</button>
-      </form>
+      <div style="flex: 1 1 420px; min-width: 0; background: #FFFBF3; color: #3D3D3D; border-radius: 28px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+        <p style="margin: 0; font-family: 'Gilda Display', serif; font-size: 26px; line-height: 1.2; color: #3D4F88">¿Qué te gustaría?</p>
+        <p style="margin: 0; font-size: 15px">Elige una opción y se abrirá tu correo con el mensaje listo para enviar.</p>
+        <a href="mailto:info@culturalhistorywalk.com?subject=Quiero%20enterarme%20del%20lanzamiento" style="display: flex; align-items: center; justify-content: space-between; gap: 12px; text-decoration: none; padding: 16px 20px; border-radius: 18px; background: #F5EEE1; color: #3D3D3D; font-weight: 600">Enterarme del lanzamiento<span aria-hidden="true" style="color: #BD4818">→</span></a>
+        <a href="mailto:info@culturalhistorywalk.com?subject=Alianza%20institucional" style="display: flex; align-items: center; justify-content: space-between; gap: 12px; text-decoration: none; padding: 16px 20px; border-radius: 18px; background: #F5EEE1; color: #3D3D3D; font-weight: 600">Proponer una alianza institucional<span aria-hidden="true" style="color: #BD4818">→</span></a>
+        <a href="mailto:info@culturalhistorywalk.com" style="margin-top: 4px; text-align: center; text-decoration: none; padding: 15px 28px; border-radius: 999px; background: #3D4F88; color: #FFFBF3; font-weight: 600">Escribir a info@culturalhistorywalk.com</a>
+      </div>
     </div>
   </section>
 
   <!-- FOOTER -->
   <footer style="background: #3D3D3D; color: #E4DED3">
-    <div style="max-width: 1200px; margin: 0 auto; padding: 64px 24px 32px; display: flex; flex-wrap: wrap; gap: 40px; justify-content: space-between">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 56px 24px 28px; display: flex; flex-wrap: wrap; gap: 32px; align-items: center; justify-content: space-between">
       <div style="flex: 1 1 260px; min-width: 0">
-        <img src="./assets/030f2abbd51c4f82318b714de18955a1.png" alt="Cultural History Walk" style="display: block; height: 64px; width: auto">
-        <p style="margin: 18px 0 0; font-size: 15px; max-width: 300px">Turismo cultural e histórico en el Caribe colombiano.</p>
-        <div aria-hidden="true" style="margin-top: 22px; display: flex; gap: 8px">
-          <span style="width: 18px; height: 18px; background: #FFFBF3; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%"></span>
-          <span style="width: 18px; height: 18px; background: #BD4818; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%"></span>
-          <span style="width: 18px; height: 18px; background: #3D4F88; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%"></span>
-          <span style="width: 18px; height: 18px; background: #9AB5CC; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%"></span>
-          <span style="width: 18px; height: 18px; background: #E9DC76; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%"></span>
-        </div>
+        <img src="./assets/030f2abbd51c4f82318b714de18955a1.png" alt="Cultural History Walk" style="display: block; height: 60px; width: auto">
+        <p style="margin: 16px 0 0; font-size: 15px">Cada lugar, muchas historias. Muy pronto.</p>
+        <a href="mailto:info@culturalhistorywalk.com" style="display: inline-block; margin-top: 8px; padding: 4px 0; font-size: 15px; color: #FFFBF3">info@culturalhistorywalk.com</a>
       </div>
-      <nav aria-label="Pie de página" style="flex: 1 1 360px; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 24px; font-size: 15px">
-        <div style="display: flex; flex-direction: column; gap: 6px"><p style="margin: 0 0 4px; font-weight: 600; color: #FFFBF3">Explora</p><a href="#rutas" style="color: #E4DED3">Recorridos</a><a href="#app" style="color: #E4DED3">La app</a><a href="#como-funciona" style="color: #E4DED3">Cómo funciona</a></div>
-        <div style="display: flex; flex-direction: column; gap: 6px"><p style="margin: 0 0 4px; font-weight: 600; color: #FFFBF3">Empresa</p><a href="#nosotros" style="color: #E4DED3">Nosotros</a><a href="#instituciones" style="color: #E4DED3">Para instituciones</a><a href="#reservar" style="color: #E4DED3">Contacto</a></div>
-      </nav>
+      <div aria-hidden="true" style="display: flex; gap: 8px">
+        <span style="width: 18px; height: 18px; background: #FFFBF3; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%"></span>
+        <span style="width: 18px; height: 18px; background: #BD4818; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%"></span>
+        <span style="width: 18px; height: 18px; background: #3D4F88; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%"></span>
+        <span style="width: 18px; height: 18px; background: #9AB5CC; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%"></span>
+        <span style="width: 18px; height: 18px; background: #E9DC76; border-radius: 48% 52% 44% 56% / 55% 47% 53% 45%"></span>
+      </div>
     </div>
     <div style="max-width: 1200px; margin: 0 auto; padding: 20px 24px 32px; border-top: 1px solid #555555; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; font-size: 13px; color: #CFC8BC">
       <span>© 2026 Cultural History Walk</span>
-      <span>Proyecto incubado en UA Emprende · Universidad del Atlántico</span>
+      <span>Fotografías de Barranquilla: [AUTORES Y LICENCIAS]</span>
     </div>
   </footer>
 
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":6200}}'>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":4700}}'>
 class Component extends DCLogic {
   renderVals() {
     return {};
